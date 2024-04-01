@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "pipen"
+version = "0.1"
+description = "pipen, an simple DSL. Can only manage basic stuff."
+authors = ["David Kopal"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.scripts]
+pipen = "pipen.main:fileArg"
